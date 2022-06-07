@@ -23,7 +23,7 @@ namespace Lajf.Cadastro.Produtos.API.Controllers
             FornecedorRepository fornecedorRepository = new FornecedorRepository();
 
             _fornecedorApplication = new FornecedorApplication(fornecedorRepository);
-            //passa aqui para ir application
+            //Passa aqui para ir application
         }
 
         [HttpPost]
